@@ -1,0 +1,118 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+body img{
+    width: 100%;
+}
+
+.main-box{
+    width: 370px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+div img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+div .order-sum{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+div .content{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+div div{
+    background-color:hsl(225, 100%, 98%);
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+div div img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+div div p{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left:70px;
+    margin-top: -50px;
+    font-size: 16px;
+}
+div div .link1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 220px;
+    position: absolute;
+    top: 414px
+}
+
+div div .link1:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.button1{
+    width:90%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right: 20px;
+    background-color: hsl(223, 47%, 23%);
+    color:white;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: bold;
+    border: 0px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.button1:hover{
+    background-color: hsl(224, 23%, 55%);
+    border: 0px;
+}
+.change_order{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.change_order:hover{
+    color:hsl(223, 47%, 23%);
+}
+@media screen and (max-width:750px){
+    body background-image{
+        content: url(images/pattern-background-mobile.svg);
+        background-size: cover;
+    }
+}
+
